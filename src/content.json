@@ -1,0 +1,202 @@
+{
+  "skills": {
+    "primary": [
+      "Node js",
+      "JavaScript",
+      "Express",
+      "Mongoose",
+      "MongoDB",
+      "MySQL",
+      "Laravel",
+      "Lumen",
+      "PHP",
+      "REST APIs",
+      "API Documentation",
+      "OAuth2",
+      "JWT (JSON Web Tokens)",
+      "JSON",
+      "Git",
+      "GitHub",
+      "Proficient in Google Search"
+    ],
+    "secondary": [
+      "Asana",
+      "JIRA",
+      "Jest",
+      "TypeScript",
+      "AWS (Amazon Web Services)"
+    ]
+  },
+  "projects": [
+    {
+      "name": "https://aurumwisex.com",
+      "achievements": [
+        "WiseX is India’s First & Largest Neo-realty investment platform by Aurum PropTech.",
+        "Tech Stack: Node.js, JavaScript, MongoDB, AWS Route53, Laravel, Lumen, React, Material UI, GitLab",
+        "Supported Platform: Web",
+        "My Contribution: As the tech lead developer, engineered the platform from inception, developed all APIs, and designed the database architecture."
+      ]
+    },
+    {
+      "name": "https://hamleys.in",
+      "achievements": [
+        "Shop for premium games & toys for kids online at Hamleys®️ India, the finest toy store in the world. Avail great offers & deals.",
+        "Tech Stack: Node.js, JavaScript, Laravel, Lumen, Vue, AWS Route53 ",
+        "Supported Platform: Web and Mobile",
+        "My Contribution: Gathered requirements from clients, developed APIs, and integrated them with the frontend, working closely with frontend developers."
+      ]
+    },
+    {
+      "name": "https://swoopos.com",
+      "achievements": [
+        "SWOOPOS is an innovative mobile point-of-sale system that connects businesses directly to customers for easier, faster, and more rewarding transactions.",
+        "Tech Stack: Laravel, PHP, MongoDB, GitLab",
+        "Supported Platform: Web and Mobile",
+        "My Contribution: Developed secure APIs and documentation specifically for the mobile application."
+      ]
+    },
+    {
+      "name": "https://tumi.in",
+      "achievements": [
+        "TUMI India presents multifunctional and innovative products. Shop for backpacks, luggage, bags, suitcases, soft trolleys, hard trolleys, and travel accessories.",
+        "Tech Stack: Node.js, JavaScript, Laravel, Lumen, Next.js, AWS Route53 ",
+        "Supported Platform: Web and Mobile",
+       "My Contribution: Engineered the platform from the ground up, overseeing API development and database schema design."
+      ]
+    },
+    {
+      "name": "https://hunkemoller.in",
+      "achievements": [
+        "Hunkemöller is one of the largest lingerie specialists from Europe. The collection from Hunkemöller is designed by the in-house team and the products are fully crafted.",
+        "Tech Stack: Node.js, JavaScript, Laravel, Lumen, Next.js, AWS Route53 ",
+        "Supported Platform: Web and Mobile",
+        "My Contribution: Architected and implemented APIs and database schema for a cutting-edge platform from inception."
+      ]
+    },
+    {
+      "name": "https://manishmalhotra.in",
+      "achievements": [
+        "Celebrated for visionary designs merging traditional opulence with contemporary chic, defining global fashion with iconic couture and ready-to-wear.",
+        "Tech Stack: Node.js, JavaScript, Laravel, Lumen, Next.js, AWS Route53 ",
+        "Supported Platform: Web and Mobile",
+        "My Contribution: Spearheaded the end-to-end development of APIs and database architecture for a high-impact project."
+      ]
+    },
+    {
+      "name": "https://www.ritukumar.com",
+      "achievements": [
+        "Shop Ritu Kumar's collection of anarkali suits, dresses, kurtis, and more for women.",
+        "Tech Stack: Node.js, JavaScript, Laravel, Lumen, Next.js, AWS Route53 ",
+        "Supported Platform: Web and Mobile",
+        "My Contribution: Designed and executed APIs and database schema, driving the project's architecture from the ground up."
+      ]
+    }
+  ],
+  "workExperience": [
+  {
+    "position": "Software Developer",
+    "company": "Zip42lab Technology Pvt Ltd",
+    "date": {
+      "joining": "Aug 2023",
+      "leaving": "Present"
+    },
+    "companyDescription": "Zip42lab Technologies specializes in the development of a wide service eCommerce Solution and Application Development.",
+    "responsibilities": [
+      "Develop, maintain, and enhance eCommerce solutions for various business verticals.",
+      "Integrated Razorpay Smart Collect to automate payment collections via virtual accounts and UPI IDs.",
+      "Set up instant payment notifications for real-time transaction updates.",
+      "Develop scalable, high-performance web applications using NodeJS, Laravel, Lumen, and MySQL.",
+      "Optimize application performance through code refactoring, efficient data handling, and resource management."
+      
+    ]
+  },
+  {
+    "position": "Software Developer",
+    "company": "GreenHonchos Pvt. Ltd.",
+    "date": {
+      "joining": "Dec 2020",
+      "leaving": "Jul 2023"
+    },
+    "companyDescription": "GreenHonchos is a full-stack D2C enabler, an e-commerce agency that provides end-to-end e-commerce solutions for D2C brands including digital branding.",
+    "responsibilities": [
+      "Conduct client meetings to gather requirements and oversee the development process from planning to delivery.",
+      "Lead the team in planning, development, and execution to achieve project goals.",
+      "Develop scalable REST APIs and high-performance applications.",
+      "Implement security measures such as encryption, secure coding practices, and access controls.",
+      "Managed multiple collection modes (RTGS, NEFT, IMPS, UPI) while ensuring seamless and secure payment processes, adhering to PCI-DSS compliance."
+    ]
+  },{
+    "position": "Sr. Software Developer",
+    "company": "PS QuickIT",
+    "date": {
+      "joining": "Aug 2019",
+      "leaving": "Dec 2020"
+    }
+  },{
+    "position": "Software Developer",
+    "company": "Lexx Digital",
+    "date": {
+      "joining": "Oct 2018",
+      "leaving": "Aug 2019"
+    }
+  }
+],
+
+
+  "certificates": [
+    {
+      "name": "Certificate of Completion",
+      "description": "PHP Training from DuCat."
+    },
+    {
+      "name": "Certificate of Completion",
+      "description": "Node.js from Udemy."
+    }
+  ],
+  "languages": [
+    {
+      "name": "Urdu",
+      "fluency": "Native or Bilingual Proficiency"
+    },
+    {
+      "name": "Hindi",
+      "fluency": "Native or Bilingual Proficiency"
+    },
+    {
+      "name": "English",
+      "fluency": "Full Professional Proficiency"
+    }
+  ],
+  "interests": [
+    "Effective Communication",
+    "Coding",
+    "Problem Solving",
+    "Team Collaboration",
+    "Time Management",
+    "Leadership",
+    "Focused",
+    "Playing Cricket",
+    "Watching Movies",
+    "Conflict Resolution",
+    "Client Relations",
+    "Creativity"
+  ],
+  "education": [
+    {
+      "course": "Bachelor of Computer Applications",
+      "institute": "Jamia Hamdard University, Delhi",
+      "date": {
+        "joining": "2012",
+        "leaving": "2015"
+      }
+    },
+    {
+      "course": "Senior Secondary Education",
+      "institute": "QIC, U.P.",
+      "date": {
+        "joining": "2010",
+        "leaving": "2012"
+      }
+    }
+  ]
+}
