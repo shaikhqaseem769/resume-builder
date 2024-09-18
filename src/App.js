@@ -63,6 +63,16 @@ class App extends React.Component {
               <Card elevation={0}>
                 {[
                   {
+                    label: "+91-8377995607",
+                    link: "tel:+91-8377995607",
+                    icon: <PhoneAndroidIcon />,
+                  },
+                  {
+                    label: "shaikhqaseem769@gmail.com",
+                    link: "mailto:shaikhqaseem769@gmail.com",
+                    icon: <EmailIcon />,
+                  },
+                  {
                     label: "New Delhi, India",
                     link: false,
                     icon: <LocationOnIcon />,

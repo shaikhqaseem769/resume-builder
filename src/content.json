@@ -2,6 +2,7 @@
   "skills": {
     "primary": [
       "Node js",
+      "Nest js",
       "JavaScript",
       "Express",
       "Mongoose",
@@ -10,7 +11,10 @@
       "Laravel",
       "Lumen",
       "PHP",
+      "AWS",
+      "Micro Services",
       "REST APIs",
+      "Serverless (Lamda)",
       "API Documentation",
       "OAuth2",
       "JWT (JSON Web Tokens)",
@@ -32,7 +36,7 @@
       "name": "https://aurumwisex.com",
       "achievements": [
         "WiseX is India’s First & Largest Neo-realty investment platform by Aurum PropTech.",
-        "Tech Stack: Node.js, JavaScript, MongoDB, AWS Route53, Laravel, Lumen, React, Material UI, GitLab",
+        "Tech Stack: Node.js, JavaScript, MongoDB, AWS Route53, Laravel, Lumen, React, Material UI, Microservices, GitLab",
         "Supported Platform: Web",
         "My Contribution: As the tech lead developer, engineered the platform from inception, developed all APIs, and designed the database architecture."
       ]
@@ -41,7 +45,7 @@
       "name": "https://hamleys.in",
       "achievements": [
         "Shop for premium games & toys for kids online at Hamleys®️ India, the finest toy store in the world. Avail great offers & deals.",
-        "Tech Stack: Node.js, JavaScript, Laravel, Lumen, Vue, AWS Route53 ",
+        "Tech Stack: Microservicesn Node.js, JavaScript, Laravel, Lumen, Vue, AWS Route53, Serverless (Lamda)",
         "Supported Platform: Web and Mobile",
         "My Contribution: Gathered requirements from clients, developed APIs, and integrated them with the frontend, working closely with frontend developers."
       ]
@@ -59,7 +63,7 @@
       "name": "https://tumi.in",
       "achievements": [
         "TUMI India presents multifunctional and innovative products. Shop for backpacks, luggage, bags, suitcases, soft trolleys, hard trolleys, and travel accessories.",
-        "Tech Stack: Node.js, JavaScript, Laravel, Lumen, Next.js, AWS Route53 ",
+        "Tech Stack: Microservices, Node.js, JavaScript, Laravel, Lumen, Next.js, Serverless (Lamda), AWS Route53 ",
         "Supported Platform: Web and Mobile",
        "My Contribution: Engineered the platform from the ground up, overseeing API development and database schema design."
       ]
@@ -68,7 +72,7 @@
       "name": "https://hunkemoller.in",
       "achievements": [
         "Hunkemöller is one of the largest lingerie specialists from Europe. The collection from Hunkemöller is designed by the in-house team and the products are fully crafted.",
-        "Tech Stack: Node.js, JavaScript, Laravel, Lumen, Next.js, AWS Route53 ",
+        "Tech Stack: Microservices, Node.js, JavaScript, Laravel, Lumen, Next.js, AWS Route53, Serverless (Lamda) ",
         "Supported Platform: Web and Mobile",
         "My Contribution: Architected and implemented APIs and database schema for a cutting-edge platform from inception."
       ]
@@ -95,17 +99,18 @@
   "workExperience": [
   {
     "position": "Software Developer",
-    "company": "Zip42lab Technology Pvt Ltd",
+    "company": "AurumWiseX Pvt Ltd",
     "date": {
       "joining": "Aug 2023",
       "leaving": "Present"
     },
-    "companyDescription": "Zip42lab Technologies specializes in the development of a wide service eCommerce Solution and Application Development.",
+    "companyDescription": "WiseX is India’s First & Largest Neo-realty investment platform by Aurum PropTech.",
     "responsibilities": [
-      "Develop, maintain, and enhance eCommerce solutions for various business verticals.",
+      "Develop scalable, high-performance webapplications using NodeJS, Laravel,Lumen, and MySQL.",
+      "Optimize application performancethrough code refactoring, effi cient datahandling, and resource management.",
       "Integrated Razorpay Smart Collect to automate payment collections via virtual accounts and UPI IDs.",
       "Set up instant payment notifications for real-time transaction updates.",
-      "Develop scalable, high-performance web applications using NodeJS, Laravel, Lumen, and MySQL.",
+      "Develop scalable, high-performance web applications using NodeJS, Laravel, Lumen, MySQL, Microservices.",
       "Optimize application performance through code refactoring, efficient data handling, and resource management."
       
     ]
