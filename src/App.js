@@ -47,13 +47,19 @@ class App extends React.Component {
                 <Grid item xs={12}>
                   <Typography variant="h3">Mohammad Qaseem</Typography>
                   <Typography variant="h5">
-                    Senior Software Developer
+                    {/* Senior Software Developer */}
+                    Profile Summary
                   </Typography>
                   <Typography paragraph>
-                    Highly experienced Software Engineer with a proven track
-                    record of success in the information technology and services
-                    industry. Proficient in developing E-commerce web
-                    applications using Node js, Express
+                    An experienced Software Developer with 3+ years of expertise
+                    in Node.js and 3 years in PHP. Proficient in building
+                    scalable, high-performance web applications using
+                    technologies like Node.js, Express, and Laravel. Skilled in
+                    API development, microservices architecture, and cloud
+                    integrations. Adept at handling end-to-end project
+                    development, from requirement gathering to final deployment.
+                    Currently seeking immediate opportunities to contribute to
+                    challenging and impactful projects.
                   </Typography>
                 </Grid>
               </Grid>
@@ -64,7 +70,6 @@ class App extends React.Component {
                 {[
                   {
                     label: "+91-8377995607",
-                    link: "tel:+91-8377995607",
                     icon: <PhoneAndroidIcon />,
                   },
                   {
@@ -78,13 +83,12 @@ class App extends React.Component {
                     icon: <LocationOnIcon />,
                   },
                   {
-                    label:
-                      "https://www.linkedin.com/in/mohammad-qaseem-8377995607",
+                    label: "https://linkedin.com/in/mohammad-qaseem-8377995607",
                     link: "https://www.linkedin.com/in/mohammad-qaseem-8377995607",
                     icon: <LinkedInIcon />,
                   },
                   {
-                    label: "https://github.com/shaikhqaseem769",
+                    label: "GitHub",
                     link: "https://github.com/shaikhqaseem769",
                     icon: <GitHubIcon />,
                   },

@@ -9,14 +9,13 @@ const Projects = () => (
     <Box className="iconContainer" mb={2}>
       <AssignmentIcon className="filledIcon" />
       <Typography variant={"h5"} fontWeight="bold">
-        COMPANY PROJECTS
+        Notable Projects
       </Typography>
     </Box>
 
     <Grid item xs={12}>
       {Content.projects.map((project, i) => (
         <Grid item xs={12} mb={1} key={i}>
-
           <Box sx={{ position: "relative", mb: 2, width: "fit-content" }}>
             <span className="projectTitleUnderline"></span>
             <Typography variant="h6" mb={0}>
