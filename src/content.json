@@ -2,26 +2,41 @@
   "skills": {
     "primary": [
       "JavaScript",
+      "TypeScript",
       "Node.js",
       "NestJS",
-      "TypeScript",
       "Express.js",
-      "Mongoose",
       "MongoDB",
+      "Mongoose",
       "MySQL",
-      "Laravel",
-      "Lumen",
-      "PHP",
-      "AWS",
+      "PostgreSQL",
+      "Redis",
+      "RabbitMQ",
+      "Apache Kafka",
       "Microservices",
       "REST APIs",
-      "Jenkins",
-      "API Documentation",
-      "OAuth2",
       "JWT (JSON Web Tokens)",
-      "JSON",
+      "OAuth2",
+      "Passport.js",
+      "API Documentation",
+      "Swagger",
+      "Postman",
+      "Docker",
+      "AWS (EC2, S3, SES, RDS, SNS, SQS, Route53)",
+      "CI/CD",
+      "Jenkins",
+      "Unit Testing",
+      "Mocha",
+      "Chai",
+      "Jest",
       "Git",
-      "GitHub"
+      "GitHub",
+      "GitLab",
+      "Agile/Scrum",
+      "JSON",
+      "PHP",
+      "Laravel",
+      "Lumen"
     ],
     "secondary": ["Asana", "JIRA", "Jest", "AWS (Amazon Web Services)"]
   },
@@ -153,18 +168,14 @@
     },
     {
       "name": "Certificate of Completion",
-      "description": "Node.js from Udemy."
+      "description": "JavaScript from Udemy."
     },
     {
       "name": "Certificate of Completion",
-      "description": "JavaScript from Udemy."
+      "description": "Node.js from Udemy."
     }
   ],
   "languages": [
-    {
-      "name": "Urdu",
-      "fluency": "Native or Bilingual Proficiency"
-    },
     {
       "name": "Hindi",
       "fluency": "Native or Bilingual Proficiency"
