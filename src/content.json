@@ -45,7 +45,7 @@
       "name": "https://aurumwisex.com",
       "achievements": [
         "WiseX is India’s premier Neo-realty investment platform, developed by Aurum, offering innovative real estate investment solutions.",
-        "Tech Stack: Node.js, JavaScript, MongoDB, AWS, Laravel and ReactJS, Docker, Git and Kafka.",
+        "Tech Stack: Node.js, JavaScript, MongoDB, AWS, Laravel and ReactJS, Docker, Jenkins, Git and Kafka.",
         "Supported Platform: Web.",
         "Contribution: Developed the platform from inception, focusing on API development and database architecture."
       ]
