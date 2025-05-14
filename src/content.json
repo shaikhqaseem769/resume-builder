@@ -45,7 +45,7 @@
       "name": "https://aurumwisex.com",
       "achievements": [
         "WiseX is India’s premier Neo-realty investment platform, developed by Aurum, offering innovative real estate investment solutions.",
-        "Tech Stack: Node.js, JavaScript, MongoDB, AWS, Laravel and ReactJS.",
+        "Tech Stack: Node.js, JavaScript, MongoDB, AWS, Laravel and ReactJS, Docker, Git and Kafka.",
         "Supported Platform: Web.",
         "Contribution: Developed the platform from inception, focusing on API development and database architecture."
       ]
@@ -54,7 +54,7 @@
       "name": "https://hamleys.in",
       "achievements": [
         "Shop for premium games & toys for kids online at Hamleys India, the finest toy store in the world. Avail great offers & deals.",
-        "Tech Stack: Node.js, JavaScript, Laravel, Vue.js, AWS.",
+        "Tech Stack: Node.js, JavaScript, Laravel, Vue.js, Docker and AWS.",
         "Supported Platform: Web and Mobile.",
         "Contribution: Gathered requirements from clients, Designed scalable APIs and integrated them with the frontend for web and mobile platforms."
       ]
@@ -63,7 +63,7 @@
       "name": "https://swoopos.com",
       "achievements": [
         "SWOOPOS is an innovative mobile point-of-sale system that connects businesses directly to customers for easier, faster, and more rewarding transactions.",
-        "Tech Stack: Laravel, PHP, MongoDB, GitLab.",
+        "Tech Stack: Laravel, Docker, HTML, CSS, MongoDB, GitLab.",
         "Supported Platform: Web and Mobile.",
         "Contribution: Developed secure APIs and extensive documentation for a mobile point-of-sale system."
       ]
