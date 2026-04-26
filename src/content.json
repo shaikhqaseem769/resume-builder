@@ -42,6 +42,15 @@
   },
   "projects": [
     {
+      "name": "https://ourshopee.com",
+      "achievements": [
+        "Since our inception in 2015, Ourshopee.com has blossomed into one of the leading and fastest-growing online shopping platforms, capturing hearts across the UAE, Oman, Qatar, Kuwait, Bahrain, and KSA.",
+        "Tech Stack: Node.js, JavaScript, Elastic Search, MySQL, AWS, Laravel and ReactJS, CI/CD, Git and Bull Queue.",
+        "Supported Platform: Web/App.",
+        "Contribution: Developed the platform from inception, focusing on API development and database architecture."
+      ]
+    },
+    {
       "name": "https://aurumwisex.com",
       "achievements": [
         "WiseX is India’s premier Neo-realty investment platform, developed by Aurum, offering innovative real estate investment solutions.",
@@ -108,6 +117,20 @@
   "workExperience": [
     {
       "position": "Software Developer",
+      "company": "Ourshopee Pvt Ltd",
+      "date": {
+        "joining": "May 2025",
+        "leaving": "Till Date"
+      },
+      "companyDescription": "Ourshopee is a leading Marketplace platform in the Middle East, offering a wide range of products and services.",
+      "responsibilities": [
+        "Engineered high-performance web applications using Node.js, Fastify, Elastic Search and MySQL.",
+        "Optimized application performance by refactoring code, improving data handling, and managing resources efficiently.",
+        "Integrated Tamara, Tabby, Apple Pay to payment"
+      ]
+    },
+    {
+      "position": "Software Developer",
       "company": "AurumWiseX Pvt Ltd",
       "date": {
         "joining": "Aug 2023",
@@ -133,8 +156,7 @@
         "Led client meetings to gather requirements and oversee the development process from planning to delivery.",
         "Led the team in planning, development, and execution to achieve project goals.",
         "Spearheaded the development of REST APIs and high-performance applications for e-commerce platforms.",
-        "Integrated security measures such as encryption, secure coding practices, and access controls.",
-        "Managed multiple collection modes (RTGS, NEFT, IMPS, UPI) while ensuring seamless and secure payment processes, adhering to PCI-DSS compliance."
+        "Integrated security measures such as encryption, secure coding practices, and access controls."
       ]
     },
     {
@@ -162,10 +184,7 @@
     }
   ],
   "certificates": [
-    {
-      "name": "Certificate of Completion",
-      "description": "PHP Training from DuCat."
-    },
+    
     {
       "name": "Certificate of Completion",
       "description": "JavaScript from Udemy."
@@ -176,10 +195,7 @@
     }
   ],
   "languages": [
-    {
-      "name": "Hindi",
-      "fluency": "Native or Bilingual Proficiency"
-    },
+    
     {
       "name": "English",
       "fluency": "Full Professional Proficiency"

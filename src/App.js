@@ -92,7 +92,7 @@ class App extends React.Component {
                     icon: <LinkedInIcon />,
                   },
                   {
-                    label: "GitHub",
+                    label: "https://github.com/shaikhqaseem769",
                     link: "https://github.com/shaikhqaseem769",
                     icon: <GitHubIcon />,
                   },
