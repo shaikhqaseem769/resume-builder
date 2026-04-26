@@ -26,7 +26,7 @@ const Projects = () => (
           {project.achievements.map((text, i) => (
             <ListItem {...{ text }} />
           ))}
-          {i === 2 && (
+          {i === 1 && (
             <Fragment>
               {new Array(6).fill("").map((_, i) => (
                 <br key={i} />

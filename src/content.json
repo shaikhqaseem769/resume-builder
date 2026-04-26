@@ -6,6 +6,8 @@
       "Node.js",
       "NestJS",
       "Express.js",
+      "Fastify",
+      "Python",
       "MongoDB",
       "Mongoose",
       "MySQL",
@@ -41,148 +43,140 @@
     "secondary": ["Asana", "JIRA", "Jest", "AWS (Amazon Web Services)"]
   },
   "projects": [
-    {
-      "name": "https://ourshopee.com",
-      "achievements": [
-        "Since our inception in 2015, Ourshopee.com has blossomed into one of the leading and fastest-growing online shopping platforms, capturing hearts across the UAE, Oman, Qatar, Kuwait, Bahrain, and KSA.",
-        "Tech Stack: Node.js, JavaScript, Elastic Search, MySQL, AWS, Laravel and ReactJS, CI/CD, Git and Bull Queue.",
-        "Supported Platform: Web/App.",
-        "Contribution: Developed the platform from inception, focusing on API development and database architecture."
-      ]
-    },
-    {
-      "name": "https://aurumwisex.com",
-      "achievements": [
-        "WiseX is India’s premier Neo-realty investment platform, developed by Aurum, offering innovative real estate investment solutions.",
-        "Tech Stack: Node.js, JavaScript, MongoDB, AWS, Laravel and ReactJS, Docker, Jenkins, Git and Kafka.",
-        "Supported Platform: Web.",
-        "Contribution: Developed the platform from inception, focusing on API development and database architecture."
-      ]
-    },
-    {
-      "name": "https://hamleys.in",
-      "achievements": [
-        "Shop for premium games & toys for kids online at Hamleys India, the finest toy store in the world. Avail great offers & deals.",
-        "Tech Stack: Node.js, JavaScript, Laravel, Vue.js, Docker and AWS.",
-        "Supported Platform: Web and Mobile.",
-        "Contribution: Gathered requirements from clients, Designed scalable APIs and integrated them with the frontend for web and mobile platforms."
-      ]
-    },
-    {
-      "name": "https://swoopos.com",
-      "achievements": [
-        "SWOOPOS is an innovative mobile point-of-sale system that connects businesses directly to customers for easier, faster, and more rewarding transactions.",
-        "Tech Stack: Laravel, Docker, HTML, CSS, MongoDB, GitLab.",
-        "Supported Platform: Web and Mobile.",
-        "Contribution: Developed secure APIs and extensive documentation for a mobile point-of-sale system."
-      ]
-    },
-    {
-      "name": "https://tumi.in",
-      "achievements": [
-        "TUMI India presents multifunctional and innovative products. Shop for backpacks, luggage, bags, suitcases, soft trolleys, hard trolleys, and travel accessories.",
-        "Tech Stack: Microservices, Node.js, JavaScript, Laravel, Lumen, Next.js.",
-        "Supported Platform: Web and Mobile.",
-        "Contribution: Architected and implemented APIs for the platform, ensuring seamless integration across web and mobile."
-      ]
-    },
-    {
-      "name": "https://hunkemoller.in",
-      "achievements": [
-        "Hunkemoller is one of the largest lingerie specialists from Europe. The collection from Hunkemoller is designed by the in-house team and the products are fully crafted.",
-        "Tech Stack: Microservices, Node.js, JavaScript, Laravel, Lumen, Next.js.",
-        "Supported Platform: Web and Mobile.",
-        "Contribution: Architected and implemented APIs and database schema for a cutting-edge platform from inception."
-      ]
-    },
-    {
-      "name": "https://manishmalhotra.in",
-      "achievements": [
-        "Celebrated for visionary designs merging traditional opulence with contemporary chic, defining global fashion with iconic couture and ready-to-wear.",
-        "Tech Stack: Node.js, JavaScript, Laravel, Lumen, Next.js, AWS Route53.",
-        "Supported Platform: Web and Mobile.",
-        "Contribution: Spearheaded the end-to-end development of APIs and database architecture for a high-impact project."
-      ]
-    },
-    {
-      "name": "https://www.ritukumar.com",
-      "achievements": [
-        "Shop Ritu Kumar's collection of anarkali suits, dresses, kurtis, and more for women.",
-        "Tech Stack: Node.js, JavaScript, Laravel, Lumen, Next.js, AWS Route53.",
-        "Supported Platform: Web and Mobile.",
-        "Contribution: Designed and executed APIs and database schema, driving the project’s architecture from the ground up."
-      ]
-    }
-  ],
+  {
+    "name": "https://ourshopee.com",
+    "achievements": [
+      "Tech Stack: Node.js, Elasticsearch, MySQL, AWS (SQS, S3), ReactJS, Bull Queue, Docker, CI/CD.",
+      "Architected and scaled backend infrastructure for a high-concurrency e-commerce platform serving the GCC region, driving core API development and complex relational database design.",
+      "Engineered a centralized Order Management System (OMS) and CRM in Node.js, implementing business logic for automated invoice generation, shipping label processing, and return/replacement eligibility.",
+      "Designed event-driven, asynchronous processing architectures utilizing AWS SQS and Bull Queue for high-throughput tasks, including cron-driven scheduling and strict message deduplication for FIFO queues.",
+      "Integrated ZIWO IVR systems for automated customer call flows, building robust retry management (3-call limit logic) and secure webhook payload processing.",
+      "Engineered a bidirectional data synchronization pipeline between the internal OMS and Zoho CRM via REST APIs, ensuring real-time consistency of customer profiles."
+    ]
+  },
+  {
+    "name": "https://aurumwisex.com",
+    "achievements": [
+      "Tech Stack: Node.js, MongoDB, Kafka, AWS, Laravel, ReactJS, Docker, Jenkins.",
+      "Architected backend infrastructure and RESTful APIs from inception for a Neo-realty investment platform, delivering scalable, high-performance web services.",
+      "Established secure, modular API endpoints adhering to SOLID principles to support the ReactJS frontend, incorporating strict data validation and global error handling.",
+      "Integrated Kafka for event-driven, asynchronous data streaming and utilized MongoDB for flexible, high-performance financial data modeling."
+    ]
+  },
+  {
+    "name": "https://hamleys.in",
+    "achievements": [
+      "Tech Stack: Node.js, Laravel, Vue.js, Docker, AWS.",
+      "Translated business requirements into scalable architectural designs, developing core APIs to serve high-traffic web and mobile e-commerce platforms.",
+      "Containerized application environments using Docker and orchestrated deployments on AWS to ensure high availability during peak retail traffic."
+    ]
+  },
+  {
+    "name": "https://swoopos.com",
+    "achievements": [
+      "Tech Stack: Laravel, MongoDB, Docker, GitLab CI.",
+      "Engineered secure, low-latency REST APIs for a mobile Point-of-Sale (POS) system, prioritizing transaction integrity and fault-tolerant data synchronization.",
+      "Designed dynamic NoSQL database schemas in MongoDB to manage complex inventory and transaction ledgers."
+    ]
+  },
+  {
+    "name": "https://tumi.in",
+    "achievements": [
+      "Tech Stack: Node.js, Microservices, Laravel, Lumen, Next.js, AWS Route53.",
+      "Spearheaded the transition to a Microservices architecture using Node.js and Lumen, decoupling core services for modular scalability.",
+      "Designed and optimized relational database schemas to handle varied product catalogs, high-concurrency checkouts, and multi-platform (Web/Mobile) inventory synchronization.",
+      "Configured robust DNS routing and traffic management utilizing AWS Route53 to ensure minimal latency and high platform reliability."
+    ]
+  },
+  {
+    "name": "https://hunkemoller.in",
+    "achievements": [
+      "Tech Stack: Node.js, Microservices, Laravel, Lumen, Next.js.",
+      "Architected and implemented APIs and database schema for a cutting-edge platform from inception, ensuring seamless integration across web and mobile."
+    ]
+  },
+  {
+    "name": "https://manishmalhotra.in",
+    "achievements": [
+      "Tech Stack: Node.js, JavaScript, Laravel, Lumen, Next.js, AWS Route53.",
+      "Spearheaded the end-to-end development of APIs and database architecture for a high-impact couture e-commerce project."
+    ]
+  },
+  {
+    "name": "https://www.ritukumar.com",
+    "achievements": [
+      "Tech Stack: Node.js, JavaScript, Laravel, Lumen, Next.js, AWS Route53.",
+      "Designed and executed APIs and database schema, driving the project’s architecture from the ground up."
+    ]
+  }
+],
   "workExperience": [
-    {
-      "position": "Software Developer",
-      "company": "Ourshopee Pvt Ltd",
-      "date": {
-        "joining": "May 2025",
-        "leaving": "Till Date"
-      },
-      "companyDescription": "Ourshopee is a leading Marketplace platform in the Middle East, offering a wide range of products and services.",
-      "responsibilities": [
-        "Engineered high-performance web applications using Node.js, Fastify, Elastic Search and MySQL.",
-        "Optimized application performance by refactoring code, improving data handling, and managing resources efficiently.",
-        "Integrated Tamara, Tabby, Apple Pay to payment"
-      ]
+  {
+    "position": "Software Developer",
+    "company": "Ourshopee Pvt Ltd",
+    "date": {
+      "joining": "May 2025",
+      "leaving": "Till Date"
     },
-    {
-      "position": "Software Developer",
-      "company": "AurumWiseX Pvt Ltd",
-      "date": {
-        "joining": "Aug 2023",
-        "leaving": "Oct 2024"
-      },
-      "companyDescription": "WiseX is India’s First & Largest Neo-realty investment platform by Aurum PropTech.",
-      "responsibilities": [
-        "Engineered high-performance web applications using Node.js, Laravel, Lumen, and MySQL.",
-        "Optimized application performance by refactoring code, improving data handling, and managing resources efficiently.",
-        "Integrated Razorpay Smart Collect to automate payment collections via virtual accounts and UPI IDs.",
-        "Built and maintained scalable microservices for seamless performance in a high-traffic environment."
-      ]
+    "companyDescription": "Ourshopee is a leading Marketplace platform in the Middle East, offering a wide range of products and services.",
+    "responsibilities": [
+      "Architected low-latency web services utilizing Node.js and Fastify, optimizing Elasticsearch mappings and MySQL query plans for high-concurrency e-commerce traffic.",
+      "Refactored legacy codebases applying SOLID principles, improving resource utilization and database query execution efficiency.",
+      "Integrated regional payment gateways (Tamara, Tabby, Apple Pay), ensuring secure, atomic transaction handling and webhook reconciliation."
+    ]
+  },
+  {
+    "position": "Software Developer",
+    "company": "AurumWiseX Pvt Ltd",
+    "date": {
+      "joining": "Aug 2023",
+      "leaving": "Oct 2024"
     },
-    {
-      "position": "Software Developer",
-      "company": "GreenHonchos Pvt. Ltd.",
-      "date": {
-        "joining": "Dec 2020",
-        "leaving": "Jul 2023"
-      },
-      "companyDescription": "GreenHonchos is a full-stack D2C enabler, an ecommerce agency that provides end-to-end ecommerce solutions for D2C brands including digital branding.",
-      "responsibilities": [
-        "Led client meetings to gather requirements and oversee the development process from planning to delivery.",
-        "Led the team in planning, development, and execution to achieve project goals.",
-        "Spearheaded the development of REST APIs and high-performance applications for e-commerce platforms.",
-        "Integrated security measures such as encryption, secure coding practices, and access controls."
-      ]
+    "companyDescription": "WiseX is India’s First & Largest Neo-realty investment platform by Aurum PropTech.",
+    "responsibilities": [
+      "Designed and deployed scalable microservices using Node.js and Lumen, optimizing data handling and resource isolation for high-traffic environments.",
+      "Integrated Razorpay Smart Collect APIs for automated payment reconciliation via virtual accounts and UPI workflows.",
+      "Executed continuous performance tuning, refactoring core processing logic and optimizing relational database schemas."
+    ]
+  },
+  {
+    "position": "Software Developer",
+    "company": "GreenHonchos Pvt. Ltd.",
+    "date": {
+      "joining": "Dec 2020",
+      "leaving": "Jul 2023"
     },
-    {
-      "position": "Sr. Software Developer",
-      "company": "PS QuickIT",
-      "date": {
-        "joining": "Aug 2019",
-        "leaving": "Dec 2020"
-      },
-      "responsibilities": [
-        "Designed and developed APIs for high-traffic e-commerce websites.",
-        "Collaborated with cross-functional teams to optimize application performance and security."
-      ]
+    "companyDescription": "GreenHonchos is a full-stack D2C enabler, an ecommerce agency that provides end-to-end ecommerce solutions for D2C brands including digital branding.",
+    "responsibilities": [
+      "Directed technical requirements gathering and system design, leading cross-functional engineering teams through the full software development lifecycle.",
+      "Spearheaded the architecture of scalable RESTful APIs for D2C e-commerce platforms, enforcing strict separation of concerns.",
+      "Implemented robust security protocols, including payload encryption, JWT/OAuth2 access controls, and secure coding standards."
+    ]
+  },
+  {
+    "position": "Sr. Software Developer",
+    "company": "PS QuickIT",
+    "date": {
+      "joining": "Aug 2019",
+      "leaving": "Dec 2020"
     },
-    {
-      "position": "Software Developer",
-      "company": "Lexx Digital",
-      "date": {
-        "joining": "Oct 2018",
-        "leaving": "Aug 2019"
-      },
-      "responsibilities": [
-        "Built APIs for mobile and web applications, focusing on security and scalability."
-      ]
-    }
-  ],
+    "responsibilities": [
+      "Developed and maintained core API endpoints for high-traffic e-commerce platforms, ensuring low latency and high availability.",
+      "Optimized application security and runtime performance through collaborative code reviews and system audits."
+    ]
+  },
+  {
+    "position": "Software Developer",
+    "company": "Lexx Digital",
+    "date": {
+      "joining": "Oct 2018",
+      "leaving": "Aug 2019"
+    },
+    "responsibilities": [
+      "Constructed scalable REST APIs for mobile and web clients, implementing foundational security and data validation layers."
+    ]
+  }
+],
   "certificates": [
     
     {
