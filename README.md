@@ -1,3 +1,5 @@
+View my [resume](https://github.com/shaikhqaseem769/resume-builder/blob/master/Resume.pdf) for more details.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
