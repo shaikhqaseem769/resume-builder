@@ -4,7 +4,7 @@ import CardMembershipIcon from "@mui/icons-material/CardMembership";
 import Content from "../content.json";
 
 const Certificates = () => (
-  <CardContent style={{ padding: "25px" }}>
+  <CardContent style={{ padding: "20px" }}>
     <Grid item xs={12}>
       {new Array(0).fill("").map((_, i) => (
         <br key={i} />

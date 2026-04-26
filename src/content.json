@@ -2,35 +2,59 @@
   "skills": {
     "primary": [
       "JavaScript",
+      "TypeScript",
       "Node.js",
       "NestJS",
-      "TypeScript",
       "Express.js",
-      "Mongoose",
       "MongoDB",
+      "Mongoose",
       "MySQL",
-      "Laravel",
-      "Lumen",
-      "PHP",
-      "AWS",
+      "PostgreSQL",
+      "Redis",
+      "RabbitMQ",
+      "Apache Kafka",
       "Microservices",
       "REST APIs",
-      "Jenkins",
-      "API Documentation",
-      "OAuth2",
       "JWT (JSON Web Tokens)",
-      "JSON",
+      "OAuth2",
+      "Passport.js",
+      "API Documentation",
+      "Swagger",
+      "Postman",
+      "Docker",
+      "AWS (EC2, S3, SES, RDS, SNS, SQS, Route53)",
+      "CI/CD",
+      "Jenkins",
+      "Unit Testing",
+      "Mocha",
+      "Chai",
+      "Jest",
       "Git",
-      "GitHub"
+      "GitHub",
+      "GitLab",
+      "Agile/Scrum",
+      "JSON",
+      "PHP",
+      "Laravel",
+      "Lumen"
     ],
     "secondary": ["Asana", "JIRA", "Jest", "AWS (Amazon Web Services)"]
   },
   "projects": [
     {
+      "name": "https://ourshopee.com",
+      "achievements": [
+        "Since our inception in 2015, Ourshopee.com has blossomed into one of the leading and fastest-growing online shopping platforms, capturing hearts across the UAE, Oman, Qatar, Kuwait, Bahrain, and KSA.",
+        "Tech Stack: Node.js, JavaScript, Elastic Search, MySQL, AWS, Laravel and ReactJS, CI/CD, Git and Bull Queue.",
+        "Supported Platform: Web/App.",
+        "Contribution: Developed the platform from inception, focusing on API development and database architecture."
+      ]
+    },
+    {
       "name": "https://aurumwisex.com",
       "achievements": [
         "WiseX is India’s premier Neo-realty investment platform, developed by Aurum, offering innovative real estate investment solutions.",
-        "Tech Stack: Node.js, JavaScript, MongoDB, AWS, Laravel and ReactJS.",
+        "Tech Stack: Node.js, JavaScript, MongoDB, AWS, Laravel and ReactJS, Docker, Jenkins, Git and Kafka.",
         "Supported Platform: Web.",
         "Contribution: Developed the platform from inception, focusing on API development and database architecture."
       ]
@@ -39,7 +63,7 @@
       "name": "https://hamleys.in",
       "achievements": [
         "Shop for premium games & toys for kids online at Hamleys India, the finest toy store in the world. Avail great offers & deals.",
-        "Tech Stack: Node.js, JavaScript, Laravel, Vue.js, AWS.",
+        "Tech Stack: Node.js, JavaScript, Laravel, Vue.js, Docker and AWS.",
         "Supported Platform: Web and Mobile.",
         "Contribution: Gathered requirements from clients, Designed scalable APIs and integrated them with the frontend for web and mobile platforms."
       ]
@@ -48,7 +72,7 @@
       "name": "https://swoopos.com",
       "achievements": [
         "SWOOPOS is an innovative mobile point-of-sale system that connects businesses directly to customers for easier, faster, and more rewarding transactions.",
-        "Tech Stack: Laravel, PHP, MongoDB, GitLab.",
+        "Tech Stack: Laravel, Docker, HTML, CSS, MongoDB, GitLab.",
         "Supported Platform: Web and Mobile.",
         "Contribution: Developed secure APIs and extensive documentation for a mobile point-of-sale system."
       ]
@@ -93,6 +117,20 @@
   "workExperience": [
     {
       "position": "Software Developer",
+      "company": "Ourshopee Pvt Ltd",
+      "date": {
+        "joining": "May 2025",
+        "leaving": "Till Date"
+      },
+      "companyDescription": "Ourshopee is a leading Marketplace platform in the Middle East, offering a wide range of products and services.",
+      "responsibilities": [
+        "Engineered high-performance web applications using Node.js, Fastify, Elastic Search and MySQL.",
+        "Optimized application performance by refactoring code, improving data handling, and managing resources efficiently.",
+        "Integrated Tamara, Tabby, Apple Pay to payment"
+      ]
+    },
+    {
+      "position": "Software Developer",
       "company": "AurumWiseX Pvt Ltd",
       "date": {
         "joining": "Aug 2023",
@@ -118,8 +156,7 @@
         "Led client meetings to gather requirements and oversee the development process from planning to delivery.",
         "Led the team in planning, development, and execution to achieve project goals.",
         "Spearheaded the development of REST APIs and high-performance applications for e-commerce platforms.",
-        "Integrated security measures such as encryption, secure coding practices, and access controls.",
-        "Managed multiple collection modes (RTGS, NEFT, IMPS, UPI) while ensuring seamless and secure payment processes, adhering to PCI-DSS compliance."
+        "Integrated security measures such as encryption, secure coding practices, and access controls."
       ]
     },
     {
@@ -147,28 +184,18 @@
     }
   ],
   "certificates": [
+    
     {
       "name": "Certificate of Completion",
-      "description": "PHP Training from DuCat."
+      "description": "JavaScript from Udemy."
     },
     {
       "name": "Certificate of Completion",
       "description": "Node.js from Udemy."
-    },
-    {
-      "name": "Certificate of Completion",
-      "description": "JavaScript from Udemy."
     }
   ],
   "languages": [
-    {
-      "name": "Urdu",
-      "fluency": "Native or Bilingual Proficiency"
-    },
-    {
-      "name": "Hindi",
-      "fluency": "Native or Bilingual Proficiency"
-    },
+    
     {
       "name": "English",
       "fluency": "Full Professional Proficiency"

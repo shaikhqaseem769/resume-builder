@@ -51,15 +51,19 @@ class App extends React.Component {
                     Profile Summary
                   </Typography>
                   <Typography paragraph>
-                    An experienced Software Developer with 3+ years of expertise
-                    in Node.js and 3 years in PHP. Proficient in building
-                    scalable, high-performance web applications using
-                    technologies like Node.js, Express, and Laravel. Skilled in
-                    API development, microservices architecture, and cloud
-                    integrations. Adept at handling end-to-end project
-                    development, from requirement gathering to final deployment.
-                    Currently seeking immediate opportunities to contribute to
-                    challenging and impactful projects.
+                    Experienced Backend Developer with over 6 years of hands-on
+                    expertise in designing and developing scalable,
+                    high-performance web applications using Node.js, Express.js,
+                    NestJS, PHP, Laravel, and Lumen. Proficient in building
+                    RESTful APIs, implementing microservices architecture, and
+                    integrating with cloud platforms like AWS (EC2, S3, Lambda,
+                    SQS). Strong background in MongoDB, MySQL, and Redis, with
+                    proven ability to optimize backend performance, ensure API
+                    security using JWT and OAuth2, and manage CI/CD pipelines
+                    using Jenkins and Git. Experienced in agile environments,
+                    leading end-to-end project development from requirement
+                    analysis to deployment. Actively seeking new opportunities
+                    to contribute to innovative, fast-paced product teams.
                   </Typography>
                 </Grid>
               </Grid>
@@ -88,7 +92,7 @@ class App extends React.Component {
                     icon: <LinkedInIcon />,
                   },
                   {
-                    label: "GitHub",
+                    label: "https://github.com/shaikhqaseem769",
                     link: "https://github.com/shaikhqaseem769",
                     icon: <GitHubIcon />,
                   },
