@@ -51,19 +51,18 @@ class App extends React.Component {
                     Profile Summary
                   </Typography>
                   <Typography paragraph>
-                    Experienced Backend Developer with over 6 years of hands-on
-                    expertise in designing and developing scalable,
-                    high-performance web applications using Node.js, Express.js,
-                    NestJS, PHP, Laravel, and Lumen. Proficient in building
-                    RESTful APIs, implementing microservices architecture, and
-                    integrating with cloud platforms like AWS (EC2, S3, Lambda,
-                    SQS). Strong background in MongoDB, MySQL, and Redis, with
-                    proven ability to optimize backend performance, ensure API
-                    security using JWT and OAuth2, and manage CI/CD pipelines
-                    using Jenkins and Git. Experienced in agile environments,
-                    leading end-to-end project development from requirement
-                    analysis to deployment. Actively seeking new opportunities
-                    to contribute to innovative, fast-paced product teams.
+                    Senior Backend Engineer with 7+ years of experience
+                    architecting scalable, high-concurrency web applications and
+                    microservices. Expert in the Node.js ecosystem (Fastify,
+                    Express, NestJS) and PHP frameworks (Laravel, Lumen),
+                    specializing in high-scale e-commerce architectures and
+                    Order Management Systems. Proven track record of designing
+                    low-latency RESTful APIs, optimizing complex database
+                    topologies (MySQL, MongoDB, Elasticsearch, Redis), and
+                    integrating AWS cloud infrastructure (EC2, S3, SQS, Lambda).
+                    Adept at driving end-to-end development, establishing
+                    efficient CI/CD pipelines, and enforcing robust API security
+                    standards (JWT, OAuth2).
                   </Typography>
                 </Grid>
               </Grid>

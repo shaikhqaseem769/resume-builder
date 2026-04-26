@@ -24,16 +24,16 @@ const WorkExperience = () => (
           position,
           responsibilities = [],
         },
-        i
+        i,
       ) => (
         <Fragment key={i}>
-          {i === 2 && (
+          {/* {i === 2 && (
             <Fragment>
               {new Array(4).fill("").map((_, i) => (
                 <br key={i} />
               ))}
             </Fragment>
-          )}
+          )} */}
           <Grid container>
             <Grid item xs={12}>
               <Typography
@@ -102,7 +102,7 @@ const WorkExperience = () => (
             )}
           </Grid>
         </Fragment>
-      )
+      ),
     )}
   </CardContent>
 );
