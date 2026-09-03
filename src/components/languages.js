@@ -4,7 +4,7 @@ import LanguageIcon from "@mui/icons-material/Language";
 import Content from "../content.json";
 
 const Languages = () => (
-  <CardContent style={{ padding: "25px" }}>
+  <CardContent style={{ padding: "10px" }}>
     <Grid item xs={12}>
       <Box className="iconContainer" width={"100%"} mb={2}>
         <LanguageIcon />

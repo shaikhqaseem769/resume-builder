@@ -5,7 +5,7 @@ import ListItem from "./ui-components/listItem";
 import Content from "../content.json";
 
 const WorkExperience = () => (
-  <CardContent sx={{ padding: "25px" }}>
+  <CardContent sx={{ padding: "12px" }}>
     <Grid item xs={12}>
       <Box className="iconContainer" width="100%" mb={2}>
         <WorkOutlineIcon />
@@ -45,16 +45,16 @@ const WorkExperience = () => (
                 {position}
               </Typography>
               <Typography color="white" variant="h6">
-                {company}
+                <strong>{company}</strong> ({date.joining} - {date.leaving})
               </Typography>
-              <Typography
+              {/* <Typography
                 color="white"
                 paragraph
                 fontWeight="bold"
                 fontStyle="italic"
               >
                 {date.joining} - {date.leaving}
-              </Typography>
+              </Typography> */}
             </Grid>
             <Grid item xs={12}>
               <Typography

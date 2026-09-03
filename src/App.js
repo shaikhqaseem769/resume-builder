@@ -46,23 +46,21 @@ class App extends React.Component {
 
                 <Grid item xs={12}>
                   <Typography variant="h3">Mohammad Qaseem</Typography>
-                  <Typography variant="h5">
-                    {/* Senior Software Developer */}
-                    Profile Summary
-                  </Typography>
+                  <Typography variant="h5">Profile Summary</Typography>
                   <Typography paragraph>
                     Senior Backend Engineer with 7+ years of experience
-                    architecting scalable, high-concurrency web applications and
-                    microservices. Expert in the Node.js ecosystem (Fastify,
-                    Express, NestJS) and PHP frameworks (Laravel, Lumen),
-                    specializing in high-scale e-commerce architectures and
-                    Order Management Systems. Proven track record of designing
-                    low-latency RESTful APIs, optimizing complex database
-                    topologies (MySQL, MongoDB, Elasticsearch, Redis), and
-                    integrating AWS cloud infrastructure (EC2, S3, SQS, Lambda).
-                    Adept at driving end-to-end development, establishing
-                    efficient CI/CD pipelines, and enforcing robust API security
-                    standards (JWT, OAuth2).
+                    designing and building scalable, high-concurrency backend
+                    systems, microservices, and e-commerce platforms. Strong
+                    expertise in the Python ecosystem (FastAPI, Django) and
+                    Node.js (Fastify, Express.js, NestJS) with deep experience
+                    in order management systems and distributed architectures.
+                    Proven track record of engineering low-latency REST APIs,
+                    optimising MySQL, MongoDB, Elasticsearch, and Redis
+                    workloads, and building reliable cloud-native solutions on
+                    AWS (EC2, S3, SQS, Route 53). Experienced in end-to-end
+                    system design, event-driven architectures, CI/CD automation,
+                    API security (JWT, OAuth 2.0), and performance optimisation
+                    for high-scale production systems.
                   </Typography>
                 </Grid>
               </Grid>
@@ -143,9 +141,7 @@ class App extends React.Component {
             <Grid item xs={4}>
               <Card elevation={0} style={{ height: "150%" }}>
                 <WorkExperience />
-
                 <Certificates />
-
                 <Languages />
 
                 <Interests />

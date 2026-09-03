@@ -4,7 +4,7 @@ import LanguageIcon from "@mui/icons-material/Language";
 import Content from "../content.json";
 
 const Interests = () => (
-  <CardContent style={{ padding: "25px" }}>
+  <CardContent style={{ padding: "10px" }}>
     <Grid item xs={12}>
       <Box className="iconContainer" width={"100%"} mb={2}>
         <LanguageIcon />
@@ -14,7 +14,7 @@ const Interests = () => (
       </Box>
     </Grid>
 
-    <Grid container spacing={2}>
+    <Grid container spacing={0.2}>
       {Content.interests.map((text, i) => (
         <Grid key={i} item>
           <Chip
