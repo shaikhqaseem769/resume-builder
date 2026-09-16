@@ -50,17 +50,18 @@ class App extends React.Component {
                   <Typography paragraph>
                     Senior Backend Engineer with 7+ years of experience
                     designing and building scalable, high-concurrency backend
-                    systems, microservices, and e-commerce platforms. Strong
-                    expertise in the Python ecosystem (FastAPI, Django) and
-                    Node.js (Fastify, Express.js, NestJS) with deep experience
-                    in order management systems and distributed architectures.
-                    Proven track record of engineering low-latency REST APIs,
-                    optimising MySQL, MongoDB, Elasticsearch, and Redis
-                    workloads, and building reliable cloud-native solutions on
-                    AWS (EC2, S3, SQS, Route 53). Experienced in end-to-end
-                    system design, event-driven architectures, CI/CD automation,
-                    API security (JWT, OAuth 2.0), and performance optimisation
-                    for high-scale production systems.
+                    systems, microservices,distributed systems and e-commerce
+                    platforms. Strong expertise in the Python ecosystem
+                    (FastAPI, Flask, Django) and Node.js (Fastify, Express.js,
+                    NestJS) with deep experience in order management systems and
+                    distributed architectures. Proven track record of
+                    engineering low-latency REST APIs, optimising MySQL,
+                    MongoDB, Elasticsearch, and Redis workloads, and building
+                    reliable cloud-native solutions on AWS (EC2, S3, SQS, Route
+                    53). Experienced in end-to-end system design, event-driven
+                    architectures, CI/CD automation, API security (JWT, OAuth
+                    2.0), and performance optimisation for high-scale production
+                    systems.
                   </Typography>
                 </Grid>
               </Grid>

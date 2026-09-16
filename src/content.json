@@ -3,6 +3,8 @@
     "primary": [
       "Python",
       "FastAPI",
+      "Flask",
+      "Django",
       "JavaScript",
       "TypeScript",
       "Node.js",
@@ -17,11 +19,10 @@
       "RabbitMQ",
       "Apache Kafka",
       "Microservices",
+      "Distributed Systems",
       "REST APIs",
       "JWT (JSON Web Tokens)",
       "OAuth2",
-      "Passport.js",
-      "API Documentation",
       "Swagger",
       "Postman",
       "Docker",
@@ -29,6 +30,8 @@
       "CI/CD",
       "Jenkins",
       "Unit Testing",
+      "Integration Testing",
+      "pytest",
       "Mocha",
       "Chai",
       "Jest",
@@ -42,9 +45,9 @@
     {
       "name": "OurShopee — Order Management & Event-Driven Integration Platform",
       "url": "https://ourshopee.com",
-      "techStack": "Python, FastAPI, Elasticsearch, MySQL, AWS (SQS, S3), ReactJS, Docker, CI/CD",
+      "techStack": "Python, FastAPI, Node.js, Elasticsearch, MySQL, AWS (SQS, S3), ReactJS, Docker, CI/CD",
       "achievements": [
-        "Engineered a centralized Order Management System (OMS) and CRM in Python, automating invoice generation, shipping label processing, and return/replacement eligibility logic for a high-concurrency GCC marketplace serving 20k daily users.",
+        "Engineered a centralized Order Management System (OMS) and CRM in Python and Node.js automating invoice generation, shipping label processing, and return/replacement eligibility logic for a high-concurrency GCC marketplace serving 20k daily users.",
         "Orchestrated event-driven, asynchronous processing pipelines using AWS SQS and Bull Queue for high-throughput fulfillment tasks, incorporating cron-driven scheduling and strict message deduplication for FIFO queue integrity, processing 15k jobs daily.",
         "Integrated ZIWO IVR for automated customer call flows, implementing retry management (3-call limit logic) and secure webhook payload processing.",
         "Built a bidirectional data synchronization pipeline between the internal OMS and Zoho CRM via REST APIs, maintaining real-time consistency of customer profiles across systems."
@@ -53,7 +56,7 @@
     {
       "name": "AurumWiseX — Financial Data Platform for Neo-Realty Investment",
       "url": "https://aurumwisex.com",
-      "techStack": "Python, FastAPI, MongoDB, Kafka, AWS, ReactJS, Docker, Jenkins",
+      "techStack": "Python, FastAPI, Node.js, MongoDB, Kafka, AWS, ReactJS, Docker, Jenkins",
       "achievements": [
         "Established backend infrastructure and RESTful APIs from inception for a neo-realty investment platform, laying the architectural foundation for scalable, high-concurrency workloads.",
         "Modeled high-performance financial data structures in MongoDB, supporting flexible schema evolution for investment and transaction records.",
@@ -81,7 +84,7 @@
     {
       "name": "TUMI — Microservices Migration & Multi-Platform Synchronization",
       "url": "https://tumi.in",
-      "techStack": "Python, FastAPI, Microservices, Next.js, AWS Route53",
+      "techStack": "Python, FastAPI, Node.js, Microservices, Next.js, AWS Route53",
       "achievements": [
         "Led the migration from a monolithic architecture to microservices using Python and FastAPI, decomposing core services for independent scalability and deployment.",
         "Optimized relational database schemas to handle varied product catalogs, high-concurrency checkouts, and multi-platform (web/mobile) inventory synchronization.",
@@ -91,7 +94,7 @@
     {
       "name": "Hunkemöller India — Cross-Platform API Architecture",
       "url": "https://hunkemoller.in",
-      "techStack": "Python, FastAPI, Microservices, Laravel, Lumen, Next.js",
+      "techStack": "Python, FastAPI, Node.js, Microservices, Next.js",
       "achievements": [
         "Delivered APIs and database schema for a new e-commerce platform from inception, built with Python and FastAPI microservices to ensure seamless integration across web and mobile clients via Next.js.",
         "Designed secure, modular API endpoints adhering to SOLID principles, incorporating strict data validation and global error handling to support the ReactJS frontend."
@@ -102,7 +105,7 @@
       "url": "https://manishmalhotra.in",
       "techStack": "Node.js, JavaScript, Next.js, AWS Route53",
       "achievements": [
-        "Spearheaded end-to-end API and database architecture for a high-impact couture e-commerce project, built on Node.js and Laravel/Lumen.",
+        "Spearheaded end-to-end API and database architecture for a high-impact couture e-commerce project, built on Node.js.",
         "Configured AWS Route53 DNS routing and integrated a Next.js frontend to support a performant luxury retail storefront."
       ]
     },
@@ -123,7 +126,7 @@
       "date": { "joining": "May 2025", "leaving": "Till Date" },
       "companyDescription": "Ourshopee is a leading marketplace platform in the Middle East, offering a wide range of products and services.",
       "responsibilities": [
-        "Architect low-latency web services using Python and FastAPI, optimizing Elasticsearch mappings and MySQL query plans for high-concurrency e-commerce traffic, reducing average response time by 40%.",
+        "Architect low-latency web services using Python, FastAPI and Node.js, optimizing Elasticsearch mappings and MySQL query plans for high-concurrency e-commerce traffic, reducing average response time by 40%.",
         "Refactor legacy codebases applying SOLID principles, improving resource utilization and database query execution efficiency by 30%.",
         "Integrate regional payment gateways (Tamara, Tabby), ensuring secure, atomic transaction handling and webhook reconciliation across 7k+ daily transactions."
       ]
@@ -134,7 +137,7 @@
       "date": { "joining": "Aug 2023", "leaving": "Oct 2024" },
       "companyDescription": "WiseX is India's first and largest neo-realty investment platform by Aurum PropTech.",
       "responsibilities": [
-        "Deployed scalable microservices using Python and FastAPI, optimizing data handling and resource isolation to support 8k+ concurrent users.",
+        "Deployed scalable microservices using Python, FastAPI and Node.js, optimizing data handling and resource isolation to support 8k+ concurrent users.",
         "Integrated Razorpay Smart Collect APIs for automated payment reconciliation via virtual accounts and UPI workflows, processing 50k+ in monthly transaction volume.",
         "Executed continuous performance tuning, refactoring core processing logic and optimizing relational database schemas, improving query performance by 25%."
       ]
