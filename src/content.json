@@ -1,8 +1,9 @@
 {
   "skills": {
     "primary": [
-      "Python",
-      "FastAPI",
+      "PHP",
+      "Laravel",
+      "Lumen",
       "JavaScript",
       "TypeScript",
       "Node.js",
@@ -42,31 +43,31 @@
     {
       "name": "OurShopee — Order Management & Event-Driven Integration Platform",
       "url": "https://ourshopee.com",
-      "techStack": "Python, FastAPI, Elasticsearch, MySQL, AWS (SQS, S3), ReactJS, Docker, CI/CD",
+      "techStack": "PHP, Laravel, Elasticsearch, MySQL, AWS (SQS, S3), ReactJS, Docker, CI/CD",
       "achievements": [
-        "Engineered a centralized Order Management System (OMS) and CRM in Python, automating invoice generation, shipping label processing, and return/replacement eligibility logic for a high-concurrency GCC marketplace serving 20k daily users.",
-        "Orchestrated event-driven, asynchronous processing pipelines using AWS SQS and Bull Queue for high-throughput fulfillment tasks, incorporating cron-driven scheduling and strict message deduplication for FIFO queue integrity, processing 15k jobs daily.",
-        "Integrated ZIWO IVR for automated customer call flows, implementing retry management (3-call limit logic) and secure webhook payload processing.",
-        "Built a bidirectional data synchronization pipeline between the internal OMS and Zoho CRM via REST APIs, maintaining real-time consistency of customer profiles across systems."
+        "Built the Order Management System and CRM behind a busy GCC marketplace (about 20k users a day) in PHP/Laravel — handling everything from invoice generation to shipping labels and return/replacement eligibility checks.",
+        "Set up event-driven, asynchronous pipelines using AWS SQS and Bull Queue to keep fulfillment moving smoothly, with cron scheduling and careful message deduplication to protect FIFO queue order — around 15k jobs get processed daily.",
+        "Hooked up ZIWO IVR for automated customer call flows, including a 3-attempt retry system and secure handling of incoming webhook payloads.",
+        "Built a two-way sync between our internal OMS and Zoho CRM over REST APIs, so customer data stays consistent across both systems in real time."
       ]
     },
     {
       "name": "AurumWiseX — Financial Data Platform for Neo-Realty Investment",
       "url": "https://aurumwisex.com",
-      "techStack": "Python, FastAPI, MongoDB, Kafka, AWS, ReactJS, Docker, Jenkins",
+      "techStack": "PHP, Laravel, MongoDB, Kafka, AWS, ReactJS, Docker, Jenkins",
       "achievements": [
-        "Established backend infrastructure and RESTful APIs from inception for a neo-realty investment platform, laying the architectural foundation for scalable, high-concurrency workloads.",
-        "Modeled high-performance financial data structures in MongoDB, supporting flexible schema evolution for investment and transaction records.",
-        "Integrated Apache Kafka for event-driven, asynchronous data streaming, enabling real-time propagation of financial state changes across services."
+        "Built the backend and REST APIs for a neo-realty investment platform from the ground up, setting the architectural foundation to handle scalable, high-concurrency workloads.",
+        "Designed high-performance data models in MongoDB that could flex as investment and transaction record structures evolved.",
+        "Brought in Apache Kafka for event-driven data streaming, so financial state changes propagate across services in real time."
       ]
     },
     {
       "name": "Hamleys India — Retail Platform Cloud Infrastructure",
       "url": "https://hamleys.in",
-      "techStack": "Python, FastAPI, Vue.js, Docker, AWS",
+      "techStack": "PHP, Laravel, Vue.js, Docker, AWS",
       "achievements": [
-        "Translated business requirements into backend architecture for high-traffic web and mobile e-commerce platforms, developing core APIs to support multi-channel retail operations.",
-        "Containerized application environments using Docker and orchestrated AWS deployments, sustaining 99.9% uptime during peak retail traffic periods."
+        "Turned business requirements into working backend architecture for a high-traffic e-commerce platform, building the core APIs that power multi-channel retail operations.",
+        "Containerized the application with Docker and ran deployments on AWS, keeping uptime at 99.9% even during peak retail traffic."
       ]
     },
     {
@@ -74,27 +75,27 @@
       "url": "https://swoopos.com",
       "techStack": "Node.js, Express, AWS Route53",
       "achievements": [
-        "Engineered low-latency REST APIs for a mobile Point-of-Sale (POS) system, prioritizing transaction integrity and fault-tolerant data synchronization across 1k+ devices.",
-        "Modeled dynamic NoSQL schemas in MongoDB to manage complex inventory and transaction ledgers, supporting real-time reconciliation."
+        "Built low-latency REST APIs for a mobile Point-of-Sale system, with a strong focus on transaction integrity and fault-tolerant syncing across 1k+ devices.",
+        "Designed flexible NoSQL schemas in MongoDB to manage inventory and transaction ledgers, keeping everything reconciled in real time."
       ]
     },
     {
       "name": "TUMI — Microservices Migration & Multi-Platform Synchronization",
       "url": "https://tumi.in",
-      "techStack": "Python, FastAPI, Microservices, Next.js, AWS Route53",
+      "techStack": "PHP, Laravel, Microservices, Next.js, AWS Route53",
       "achievements": [
-        "Led the migration from a monolithic architecture to microservices using Python and FastAPI, decomposing core services for independent scalability and deployment.",
-        "Optimized relational database schemas to handle varied product catalogs, high-concurrency checkouts, and multi-platform (web/mobile) inventory synchronization.",
-        "Configured DNS routing and traffic management using AWS Route53, reducing latency and improving platform reliability to 99.9%."
+        "Led the move from a monolithic setup to microservices using PHP and Laravel, breaking core services apart so each could scale and deploy independently.",
+        "Reworked relational database schemas to handle diverse product catalogs, high-traffic checkouts, and inventory syncing across web and mobile.",
+        "Set up DNS routing and traffic management with AWS Route53, cutting latency and pushing platform reliability up to 99.9%."
       ]
     },
     {
       "name": "Hunkemöller India — Cross-Platform API Architecture",
       "url": "https://hunkemoller.in",
-      "techStack": "Python, FastAPI, Microservices, Laravel, Lumen, Next.js",
+      "techStack": "PHP, Laravel, Lumen, Microservices, Next.js",
       "achievements": [
-        "Delivered APIs and database schema for a new e-commerce platform from inception, built with Python and FastAPI microservices to ensure seamless integration across web and mobile clients via Next.js.",
-        "Designed secure, modular API endpoints adhering to SOLID principles, incorporating strict data validation and global error handling to support the ReactJS frontend."
+        "Delivered the APIs and database schema for a new e-commerce platform from day one, using PHP with Laravel and Lumen microservices to keep web and mobile clients in sync through Next.js.",
+        "Designed clean, modular API endpoints following SOLID principles, with strict data validation and global error handling to keep the ReactJS frontend running smoothly."
       ]
     },
     {
@@ -102,8 +103,8 @@
       "url": "https://manishmalhotra.in",
       "techStack": "Node.js, JavaScript, Next.js, AWS Route53",
       "achievements": [
-        "Spearheaded end-to-end API and database architecture for a high-impact couture e-commerce project, built on Node.js and Laravel/Lumen.",
-        "Configured AWS Route53 DNS routing and integrated a Next.js frontend to support a performant luxury retail storefront."
+        "Led the API and database architecture end-to-end for a high-profile couture e-commerce launch, built on Node.js and Laravel/Lumen.",
+        "Set up AWS Route53 DNS routing and integrated a Next.js frontend to support a fast, polished luxury retail storefront."
       ]
     },
     {
@@ -111,8 +112,8 @@
       "url": "https://www.ritukumar.com",
       "techStack": "Node.js, JavaScript, Next.js, AWS Route53",
       "achievements": [
-        "Designed API and database schema from the ground up, establishing the core architecture for a fashion e-commerce platform on Node.js.",
-        "Managed AWS Route53 DNS configuration alongside Next.js frontend integration to support scalable, multi-region access."
+        "Designed the API and database schema from scratch, laying the core architecture for a fashion e-commerce platform built on Node.js.",
+        "Managed AWS Route53 DNS setup alongside the Next.js frontend integration to support scalable, multi-region access."
       ]
     }
   ],
@@ -123,9 +124,9 @@
       "date": { "joining": "May 2025", "leaving": "Till Date" },
       "companyDescription": "Ourshopee is a leading marketplace platform in the Middle East, offering a wide range of products and services.",
       "responsibilities": [
-        "Architect low-latency web services using Python and FastAPI, optimizing Elasticsearch mappings and MySQL query plans for high-concurrency e-commerce traffic, reducing average response time by 40%.",
-        "Refactor legacy codebases applying SOLID principles, improving resource utilization and database query execution efficiency by 30%.",
-        "Integrate regional payment gateways (Tamara, Tabby), ensuring secure, atomic transaction handling and webhook reconciliation across 7k+ daily transactions."
+        "Build low-latency web services with PHP and Laravel, fine-tuning Elasticsearch mappings and MySQL query plans to keep up with high-concurrency e-commerce traffic — cut average response time by 40%.",
+        "Refactor legacy code using SOLID principles, improving resource usage and database query performance by 30%.",
+        "Integrate regional payment gateways (Tamara, Tabby), keeping transaction handling secure and atomic and reconciling webhooks across 7k+ daily transactions."
       ]
     },
     {
@@ -134,9 +135,9 @@
       "date": { "joining": "Aug 2023", "leaving": "Oct 2024" },
       "companyDescription": "WiseX is India's first and largest neo-realty investment platform by Aurum PropTech.",
       "responsibilities": [
-        "Deployed scalable microservices using Python and FastAPI, optimizing data handling and resource isolation to support 8k+ concurrent users.",
-        "Integrated Razorpay Smart Collect APIs for automated payment reconciliation via virtual accounts and UPI workflows, processing 50k+ in monthly transaction volume.",
-        "Executed continuous performance tuning, refactoring core processing logic and optimizing relational database schemas, improving query performance by 25%."
+        "Deployed scalable microservices with PHP and Laravel, tuning data handling and resource isolation to support 8k+ concurrent users.",
+        "Integrated Razorpay Smart Collect APIs for automated payment reconciliation via virtual accounts and UPI, processing 50k+ in monthly transaction volume.",
+        "Kept performance tuning ongoing — refactoring core logic and optimizing relational database schemas — improving query performance by 25%."
       ]
     },
     {
@@ -145,9 +146,9 @@
       "date": { "joining": "Dec 2020", "leaving": "Jul 2023" },
       "companyDescription": "GreenHonchos is a full-stack D2C enabler, an e-commerce agency providing end-to-end solutions for D2C brands, including digital branding.",
       "responsibilities": [
-        "Directed technical requirements gathering and system design, leading a cross-functional engineering team of 8 through the full software development lifecycle.",
-        "Spearheaded the architecture of scalable RESTful APIs for D2C e-commerce platforms supporting 500+ brand storefronts, enforcing strict separation of concerns.",
-        "Implemented security protocols, including payload encryption, JWT/OAuth2 access controls, and secure coding standards, reducing security vulnerabilities by 40%."
+        "Led technical requirements gathering and system design, guiding a cross-functional team of 8 through the full software development lifecycle.",
+        "Architected scalable RESTful APIs for D2C e-commerce platforms supporting 500+ brand storefronts, keeping a strict separation of concerns.",
+        "Implemented security protocols — payload encryption, JWT/OAuth2 access controls, secure coding standards — cutting security vulnerabilities by 40%."
       ]
     },
     {
@@ -155,8 +156,8 @@
       "company": "PS QuickIT",
       "date": { "joining": "Aug 2019", "leaving": "Dec 2020" },
       "responsibilities": [
-        "Developed and maintained core API endpoints for high-traffic e-commerce platforms, ensuring low latency and 99.9% uptime.",
-        "Improved application security and runtime performance through collaborative code reviews and system audits, resolving 10+ critical issues."
+        "Developed and maintained core API endpoints for high-traffic e-commerce platforms, keeping latency low and uptime at 99.9%.",
+        "Improved app security and runtime performance through code reviews and system audits, resolving 10+ critical issues."
       ]
     },
     {
@@ -164,7 +165,7 @@
       "company": "Lexx Digital",
       "date": { "joining": "Oct 2018", "leaving": "Aug 2019" },
       "responsibilities": [
-        "Built scalable REST APIs for mobile and web clients, implementing foundational security and data validation layers supporting 40k+ active users."
+        "Built scalable REST APIs for mobile and web clients, laying down the foundational security and data validation layers for 40k+ active users."
       ]
     }
   ],
