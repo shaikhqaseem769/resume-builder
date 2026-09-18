@@ -21,6 +21,7 @@ const Projects = () => (
             <Typography variant="h6" mb={0}>
               {project.name}
             </Typography>
+            <Typography mb={0}>Tech Stack: {project.techStack}</Typography>
           </Box>
 
           {project.achievements.map((text, i) => (

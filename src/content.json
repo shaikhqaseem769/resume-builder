@@ -143,7 +143,7 @@
       "position": "Software Developer",
       "company": "GreenHonchos",
       "date": { "joining": "Dec 2020", "leaving": "Jul 2023" },
-      "companyDescription": "GreenHonchos is a full-stack D2C enabler, an e-commerce agency providing end-to-end solutions for D2C brands, including digital branding.",
+      "companyDescription": "GreenHonchos is a full stack D2C enabler, an e-commerce agency providing end-to-end solutions for D2C brands, including digital branding.",
       "responsibilities": [
         "Directed technical requirements gathering and system design, leading a cross-functional engineering team of 8 through the full software development lifecycle.",
         "Spearheaded the architecture of scalable RESTful APIs for D2C e-commerce platforms supporting 500+ brand storefronts, enforcing strict separation of concerns.",
