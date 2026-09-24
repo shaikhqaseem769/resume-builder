@@ -1,10 +1,6 @@
 {
   "skills": {
     "primary": [
-      "Python",
-      "FastAPI",
-      "Flask",
-      "Django",
       "JavaScript",
       "TypeScript",
       "Node.js",
@@ -16,8 +12,6 @@
       "MySQL",
       "PostgreSQL",
       "Redis",
-      "RabbitMQ",
-      "Apache Kafka",
       "Microservices",
       "Distributed Systems",
       "REST APIs",
@@ -31,7 +25,6 @@
       "Jenkins",
       "Unit Testing",
       "Integration Testing",
-      "pytest",
       "Mocha",
       "Chai",
       "Jest",
@@ -47,7 +40,7 @@
       "url": "https://ourshopee.com",
       "techStack": "Python, FastAPI, Node.js, Elasticsearch, MySQL, AWS (SQS, S3), ReactJS, Docker, CI/CD",
       "achievements": [
-        "Engineered a centralized Order Management System (OMS) and CRM in Python and Node.js automating invoice generation, shipping label processing, and return/replacement eligibility logic for a high-concurrency GCC marketplace serving 20k daily users.",
+        "Engineered a centralized Order Management System (OMS) and CRM in Node.js and NestJS automating invoice generation, shipping label processing, and return/replacement eligibility logic for a high-concurrency GCC marketplace serving 20k daily users.",
         "Orchestrated event-driven, asynchronous processing pipelines using AWS SQS and Bull Queue for high-throughput fulfillment tasks, incorporating cron-driven scheduling and strict message deduplication for FIFO queue integrity, processing 15k jobs daily.",
         "Integrated ZIWO IVR for automated customer call flows, implementing retry management (3-call limit logic) and secure webhook payload processing.",
         "Built a bidirectional data synchronization pipeline between the internal OMS and Zoho CRM via REST APIs, maintaining real-time consistency of customer profiles across systems."
@@ -86,7 +79,7 @@
       "url": "https://tumi.in",
       "techStack": "Python, FastAPI, Node.js, Microservices, Next.js, AWS Route53",
       "achievements": [
-        "Led the migration from a monolithic architecture to microservices using Python and FastAPI, decomposing core services for independent scalability and deployment.",
+        "Led the migration from a monolithic architecture to microservices using FastAPI, decomposing core services for independent scalability and deployment.",
         "Optimized relational database schemas to handle varied product catalogs, high-concurrency checkouts, and multi-platform (web/mobile) inventory synchronization.",
         "Configured DNS routing and traffic management using AWS Route53, reducing latency and improving platform reliability to 99.9%."
       ]
@@ -96,7 +89,7 @@
       "url": "https://hunkemoller.in",
       "techStack": "Python, FastAPI, Node.js, Microservices, Next.js",
       "achievements": [
-        "Delivered APIs and database schema for a new e-commerce platform from inception, built with Python and FastAPI microservices to ensure seamless integration across web and mobile clients via Next.js.",
+        "Delivered APIs and database schema for a new e-commerce platform from inception, built with FastAPI microservices to ensure seamless integration across web and mobile clients via Next.js.",
         "Designed secure, modular API endpoints adhering to SOLID principles, incorporating strict data validation and global error handling to support the ReactJS frontend."
       ]
     },
@@ -121,29 +114,29 @@
   ],
   "workExperience": [
     {
-      "position": "Software Developer",
+      "position": "Full Stack Developer",
       "company": "Ourshopee",
       "date": { "joining": "May 2025", "leaving": "Till Date" },
       "companyDescription": "Ourshopee is a leading marketplace platform in the Middle East, offering a wide range of products and services.",
       "responsibilities": [
-        "Architect low-latency web services using Python, FastAPI and Node.js, optimizing Elasticsearch mappings and MySQL query plans for high-concurrency e-commerce traffic, reducing average response time by 40%.",
+        "Architect low-latency web services using Node.js, optimizing Elasticsearch mappings and MySQL query plans for high-concurrency e-commerce traffic, reducing average response time by 40%.",
         "Refactor legacy codebases applying SOLID principles, improving resource utilization and database query execution efficiency by 30%.",
         "Integrate regional payment gateways (Tamara, Tabby), ensuring secure, atomic transaction handling and webhook reconciliation across 7k+ daily transactions."
       ]
     },
     {
-      "position": "Software Developer",
+      "position": "Full Stack Developer",
       "company": "AurumWiseX",
       "date": { "joining": "Aug 2023", "leaving": "Oct 2024" },
       "companyDescription": "WiseX is India's first and largest neo-realty investment platform by Aurum PropTech.",
       "responsibilities": [
-        "Deployed scalable microservices using Python, FastAPI and Node.js, optimizing data handling and resource isolation to support 8k+ concurrent users.",
+        "Deployed scalable microservices using Node.js, optimizing data handling and resource isolation to support 8k+ concurrent users.",
         "Integrated Razorpay Smart Collect APIs for automated payment reconciliation via virtual accounts and UPI workflows, processing 50k+ in monthly transaction volume.",
         "Executed continuous performance tuning, refactoring core processing logic and optimizing relational database schemas, improving query performance by 25%."
       ]
     },
     {
-      "position": "Software Developer",
+      "position": "Full Stack Developer",
       "company": "GreenHonchos",
       "date": { "joining": "Dec 2020", "leaving": "Jul 2023" },
       "companyDescription": "GreenHonchos is a full-stack D2C enabler, an e-commerce agency providing end-to-end solutions for D2C brands, including digital branding.",
