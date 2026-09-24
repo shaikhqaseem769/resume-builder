@@ -45,6 +45,7 @@
       "techStack": "Python, FastAPI, Elasticsearch, MySQL, AWS (SQS, S3), ReactJS, Docker, CI/CD",
       "achievements": [
         "Engineered a centralized Order Management System (OMS) and CRM in Python, automating invoice generation, shipping label processing, and return/replacement eligibility logic for a high-concurrency GCC marketplace serving 20k daily users.",
+        "Architected a RAG based document analysis system using Python, LangChain, and Qdrant, ingesting 400+ page privacy policy documents and implementing chunking, embeddings, vector search, and contextual retrieval for AI-powered semantic analysis and question answering",
         "Orchestrated event-driven, asynchronous processing pipelines using AWS SQS and Bull Queue for high-throughput fulfillment tasks, incorporating cron-driven scheduling and strict message deduplication for FIFO queue integrity, processing 15k jobs daily.",
         "Integrated ZIWO IVR for automated customer call flows, implementing retry management (3-call limit logic) and secure webhook payload processing.",
         "Built a bidirectional data synchronization pipeline between the internal OMS and Zoho CRM via REST APIs, maintaining real-time consistency of customer profiles across systems."
