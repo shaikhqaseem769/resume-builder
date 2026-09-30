@@ -121,7 +121,7 @@
     {
       "position": "Senior Full Stack Developer",
       "company": "Ourshopee",
-      "date": { "joining": "May 2025", "leaving": "Till Date" },
+      "date": { "joining": "May 2025", "leaving": "Sep 2026" },
       "companyDescription": "Ourshopee is a leading marketplace platform in the Middle East, offering a wide range of products and services.",
       "responsibilities": [
         "Architect low-latency web services using Python and FastAPI, optimizing Elasticsearch mappings and MySQL query plans for high-concurrency e-commerce traffic, reducing average response time by 40%.",
