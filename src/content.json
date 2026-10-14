@@ -119,9 +119,20 @@
   ],
   "workExperience": [
     {
-      "position": "Senior Full Stack Developer",
+      "position": "Product Engineer",
+      "company": "SHOPEE GLOBAL",
+      "date": { "joining": "Mar-2026", "leaving": "Sep-2026" },
+      "companyDescription": "Ourshopee is a leading marketplace platform in the Middle East, offering a wide range of products and services.",
+      "responsibilities": [
+        "Designed relational database schemas and wrote stored procedures and queries to support reporting and business workflows.",
+        "Wrote unit and integration tests and documented endpoints, easing onboarding and speeding up frontend and mobile integration.",
+        "Integrated ZIWO IVR for automated customer call flows, implementing retry management (3-call limit logic) and secure webhook payload processing."
+      ]
+    },
+    {
+      "position": "Product Engineer",
       "company": "Ourshopee",
-      "date": { "joining": "May 2025", "leaving": "Sep 2026" },
+      "date": { "joining": "May 2025", "leaving": "Feb-2026" },
       "companyDescription": "Ourshopee is a leading marketplace platform in the Middle East, offering a wide range of products and services.",
       "responsibilities": [
         "Architect low-latency web services using Python and FastAPI, optimizing Elasticsearch mappings and MySQL query plans for high-concurrency e-commerce traffic, reducing average response time by 40%.",
@@ -167,7 +178,23 @@
       "responsibilities": [
         "Built scalable REST APIs for mobile and web clients, implementing foundational security and data validation layers supporting 40k+ active users."
       ]
-    }
+    },
+    {
+  "position": "Software Developer",
+  "company": "Micra Clouds",
+  "date": { "joining": "Sep 2017", "leaving": "Sep 2018" },
+  "responsibilities": [
+    "Optimized database queries and added indexing and caching, cutting average API response times and improving stability under peak traffic."
+  ]
+},
+{
+  "position": "Software Developer",
+  "company": "Micra Systems",
+  "date": { "joining": "Nov 2016", "leaving": "Sep 2017" },
+  "responsibilities": [
+    "Developed and maintained core backend modules and internal tools using clean, modular, and reusable code practices."
+  ]
+}
   ],
   "certificates": [
     { "name": "Certificate of Completion", "description": "JavaScript, Udemy" },
