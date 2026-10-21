@@ -45,7 +45,7 @@
       "url": "https://ourshopee.com",
       "techStack": "PHP, Laravel, Elasticsearch, MySQL, AWS (SQS, S3), ReactJS, Docker, CI/CD",
       "achievements": [
-        "Built the Order Management System and CRM behind a busy GCC marketplace (about 20k users a day) in PHP/Laravel — handling everything from invoice generation to shipping labels and return/replacement eligibility checks.",
+        "Built the Order Management System and CRM behind a busy GCC marketplace (about 20k users a day) in ReactJS, PHP/Laravel — handling everything from invoice generation to shipping labels and return/replacement eligibility checks.",
         "Set up event-driven, asynchronous pipelines using AWS SQS and Bull Queue to keep fulfillment moving smoothly, with cron scheduling and careful message deduplication to protect FIFO queue order — around 15k jobs get processed daily.",
         "Hooked up ZIWO IVR for automated customer call flows, including a 3-attempt retry system and secure handling of incoming webhook payloads.",
         "Built a two-way sync between our internal OMS and Zoho CRM over REST APIs, so customer data stays consistent across both systems in real time."
@@ -104,7 +104,7 @@
       "techStack": "Node.js, JavaScript, Next.js, AWS Route53",
       "achievements": [
         "Led the API and database architecture end-to-end for a high-profile couture e-commerce launch, built on Node.js and Laravel/Lumen.",
-        "Set up AWS Route53 DNS routing and integrated a Next.js frontend to support a fast, polished luxury retail storefront."
+        "Set up AWS Route53 DNS routing and integrated a ReactJS, Next.js frontend to support a fast, polished luxury retail storefront."
       ]
     },
     {
@@ -112,36 +112,36 @@
       "url": "https://www.ritukumar.com",
       "techStack": "Node.js, JavaScript, Next.js, AWS Route53",
       "achievements": [
-        "Designed the API and database schema from scratch, laying the core architecture for a fashion e-commerce platform built on Node.js.",
+        "Designed the API and database schema from scratch, laying the core architecture for a fashion e-commerce platform built on ReactJS, Node.js.",
         "Managed AWS Route53 DNS setup alongside the Next.js frontend integration to support scalable, multi-region access."
       ]
     }
   ],
   "workExperience": [
     {
-      "position": "Software Developer",
+      "position": "Full Stack Developer",
       "company": "Ourshopee",
       "date": { "joining": "May 2025", "leaving": "Till Date" },
       "companyDescription": "Ourshopee is a leading marketplace platform in the Middle East, offering a wide range of products and services.",
       "responsibilities": [
-        "Build low-latency web services with PHP and Laravel, fine-tuning Elasticsearch mappings and MySQL query plans to keep up with high-concurrency e-commerce traffic — cut average response time by 40%.",
+        "Build low-latency web services with ReactJS, PHP and Laravel, fine-tuning Elasticsearch mappings and MySQL query plans to keep up with high-concurrency e-commerce traffic — cut average response time by 40%.",
         "Refactor legacy code using SOLID principles, improving resource usage and database query performance by 30%.",
         "Integrate regional payment gateways (Tamara, Tabby), keeping transaction handling secure and atomic and reconciling webhooks across 7k+ daily transactions."
       ]
     },
     {
-      "position": "Software Developer",
+      "position": "Full Stack Developer",
       "company": "AurumWiseX",
       "date": { "joining": "Aug 2023", "leaving": "Oct 2024" },
       "companyDescription": "WiseX is India's first and largest neo-realty investment platform by Aurum PropTech.",
       "responsibilities": [
-        "Deployed scalable microservices with PHP and Laravel, tuning data handling and resource isolation to support 8k+ concurrent users.",
+        "Deployed scalable microservices with ReactJS, PHP and Laravel, tuning data handling and resource isolation to support 8k+ concurrent users.",
         "Integrated Razorpay Smart Collect APIs for automated payment reconciliation via virtual accounts and UPI, processing 50k+ in monthly transaction volume.",
         "Kept performance tuning ongoing — refactoring core logic and optimizing relational database schemas — improving query performance by 25%."
       ]
     },
     {
-      "position": "Software Developer",
+      "position": "Full Stack Developer",
       "company": "GreenHonchos",
       "date": { "joining": "Dec 2020", "leaving": "Jul 2023" },
       "companyDescription": "GreenHonchos is a full-stack D2C enabler, an e-commerce agency providing end-to-end solutions for D2C brands, including digital branding.",
